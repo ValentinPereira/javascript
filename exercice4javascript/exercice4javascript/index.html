@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>B</title>
+</head>
+<body>
+    <form>
+        <div><label for="lastname">Nom : </label><input type="text" name="lastname" id="lastname" /></div>
+        <div><label for="firstname">Prénom : </label><input type="text" name="firstname" id="firstname" /></div>
+        <div><label for="city">Ville : </label><input type="text" name="city" id="city" /></div>
+        <div><input type="submit" name="submit" id="submit" value="valider" onclick="dialogWindow()" /></div>
+    </form>
+
+    <script>
+        function dialogWindow() {
+            var lastName = document.getElementById('lastName').value;
+            var firstName = document.getElementById('firstName').value;
+            var city = document.getElementById('city').value;
+            var regexLastName = /^[A-Z]{1}[a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]([-]{ 1 } [A-Za-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ] +*) $/;
+            var regexFirstName = /^[A - Z]{1}[a-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ]([-]{1}[A-Za-záàâäãåçéèêëíìîïñóòôöõúùûüýÿæœ] +*) $/;
+            if (regex.test(lastname) && regex.test(firstname) && regex.test(city)) {
+                alert('Nom :' + lastName + '\nprenom :' + firstName + '\nville :' + city);
+            }
+            else {
+                alert('erreur');
+            }
+            if (regex.test(lastName)) {
+                alert('erreur sur le nom');
+            }
+            else if (regexfirstName.test(firstName)) {
+                alert('erreur sur le prénom');
+            }
+            else if (regexLastName)
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form>
+        <div><label for="shoeSize">Pointure : </label><input type="text" id="shoeSize" name="shoeSize" /></div>
+        <div><label for="yearOfBirth">Année de naissance : </label><input type="text" id="yearOfBirth" name="yearOfBirth" /></div>
+        <div><input type="submit" name="submit" id="submit" value="valider" onclick="calcul()" /></div>
+    </form>
+    <script>
+        function calcul() {
+            var shoeSize = document.getElementById('shoeSize').value;
+            var yearOfBirth = document.getElementById('yearOfBirth').value;
+            var result;
+            if (yearOfBirth < 1900 || yearOfBirth > 2019) {
+                alert("Erreur de saisie");
+            } else (shoeSize < 15 || shoeSize > 60) 
+                alert("Erreur de saisie");
+            
+            result = shoeSize * 2;
+            result = result + 5;
+            result = result * 50;
+            result = result - yearOfBirth;
+            result = result + 1769;
+            (result);
+        }
+    </script>
+</body>
+</html>

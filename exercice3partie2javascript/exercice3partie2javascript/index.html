@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form>
+        <label for="lastname">Votre nom  : </label><input type="text" name="lastname" id="lastname" onkeydown="grab()"  />
+    </form>
+    <script>
+        function grab() {
+            var lastname = document.getElementById("lastname").value;
+            alert(lastname);
+        }		
+    </script>
+</body>
+</html>

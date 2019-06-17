@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\Exercice.net2\Exercice.net2\obj\Debug\Exercice.net2.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Exercice.net2\Exercice.net2\bin\Debug\Exercice.net2.exe.config
+C:\Users\Dell\source\repos\Exercice.net2\Exercice.net2\bin\Debug\Exercice.net2.exe
+C:\Users\Dell\source\repos\Exercice.net2\Exercice.net2\bin\Debug\Exercice.net2.pdb
+C:\Users\Dell\source\repos\Exercice.net2\Exercice.net2\obj\Debug\Exercice.net2.exe
+C:\Users\Dell\source\repos\Exercice.net2\Exercice.net2\obj\Debug\Exercice.net2.pdb

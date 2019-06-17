@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\Exercice.net\Exercice.net\bin\Debug\Exercice.net.exe.config
+C:\Users\Dell\source\repos\Exercice.net\Exercice.net\bin\Debug\Exercice.net.exe
+C:\Users\Dell\source\repos\Exercice.net\Exercice.net\bin\Debug\Exercice.net.pdb
+C:\Users\Dell\source\repos\Exercice.net\Exercice.net\obj\Debug\Exercice.net.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\Exercice.net\Exercice.net\obj\Debug\Exercice.net.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Exercice.net\Exercice.net\obj\Debug\Exercice.net.exe
+C:\Users\Dell\source\repos\Exercice.net\Exercice.net\obj\Debug\Exercice.net.pdb
